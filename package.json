@@ -1,0 +1,23 @@
+{
+  "name": "@jimber/revine-stellar-migration",
+  "version": "0.0.1",
+  "description": "npm package to convert revine to stellar blockchain",
+  "main": "dist/index.js",
+  "repository": "git@github.com:JimberSoftware/revine-stellar-migration.git",
+  "author": "Jimber",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+}
