@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/index.ts",
+    "start": "ts-node test/migration.test.ts",
     "watch": "nodemon"
   },
   "devDependencies": {
