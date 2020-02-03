@@ -35,4 +35,5 @@ describe('migration', () => {
         expect(keypair.publicKey()).toBe("GCFN7ABBJYR2WMXX5YW55SZY5E6CVHZH6S6S6ZIWPAG4KNJ6TQOLOOYG");
 
     });
+
 });

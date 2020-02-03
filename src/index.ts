@@ -6,12 +6,9 @@ export const convertTfAccount = (seedPhrase: string, walletAmount: number = 1, s
         const pair: Keypair = keypairFromAccount(seedPhrase, startIndex + i);
 
 
-        console.log(pair);
     }
 };
-const seedPhrase: string = "extend mandate voice bunker conduct sick virus rain legend cotton loyal leg into mango slab attack mom erase nominee outside tired ride company rack";
 
-convertTfAccount(seedPhrase, 1);
 
 
 export const test = async () => {
