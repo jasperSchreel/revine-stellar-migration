@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node-ts src/index.ts",
+    "start": "ts-node src/index.ts",
     "watch": "nodemon"
   },
   "devDependencies": {
