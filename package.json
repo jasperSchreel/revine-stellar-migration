@@ -24,12 +24,17 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
+    "prebuild": "rm -rf dist",
     "build": "tsc",
-    "start": "ts-node test/migration.test.ts",
-    "watch": "nodemon"
+    "start": "ts-node src/index.ts",
+    "watch": "nodemon",
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^25.1.1",
+    "jest": "^25.1.0",
     "nodemon": "^2.0.2",
+    "ts-jest": "^25.1.0",
     "ts-node": "^8.6.2"
   }
 }

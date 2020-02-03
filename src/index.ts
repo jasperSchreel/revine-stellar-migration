@@ -1,18 +1,17 @@
 import {keypairFromAccount} from "./service/cryptoService";
-import {KeyPair} from "./types";
-import StellarSdk from "stellar-sdk";
-import { decodeBase64 } from "tweetnacl-util";
+import {Keypair} from "stellar-sdk";
 
 export const convertTfAccount = (seedPhrase: string, walletAmount: number = 1, startIndex: number = 1) => {
     for (let i = 0; i < walletAmount; i++) {
-        const pair: KeyPair = keypairFromAccount(seedPhrase, startIndex + i);
+        const pair: Keypair = keypairFromAccount(seedPhrase, startIndex + i);
 
 
-        // console.log(pair);
+        console.log(pair);
     }
 };
+const seedPhrase: string = "extend mandate voice bunker conduct sick virus rain legend cotton loyal leg into mango slab attack mom erase nominee outside tired ride company rack";
 
-
+convertTfAccount(seedPhrase, 1);
 
 
 export const test = async () => {
