@@ -15,8 +15,4 @@ describe('stellar', () => {
         let accountResponse = await loadAcount(keypair);
         expect(accountResponse.accountId()).toBe('GBTJEFDDMA5N4TDBFLJGA6K3MQFNHR2KUUFYAKYCOAEE43JD4CP3UTQC');
     });
-    it('should load an account', async () => {
-        let accountResponse = await loadAcount(keypair);
-        expect(accountResponse.accountId()).toBe('GBTJEFDDMA5N4TDBFLJGA6K3MQFNHR2KUUFYAKYCOAEE43JD4CP3UTQC');
-    });
 },);
