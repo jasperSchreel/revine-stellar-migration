@@ -1,5 +1,4 @@
 import {AccountResponse, Keypair, Server} from "stellar-sdk";
-import fetch from "node-fetch";
 
 // @todo: config
 const serverURL = "https://horizon-testnet.stellar.org";
