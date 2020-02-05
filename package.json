@@ -1,5 +1,5 @@
 {
-  "name": "@jimber/revine-stellar-migration",
+  "name": "@jimber/stellar-crypto",
   "version": "0.0.1",
   "description": "npm package to convert revine to stellar blockchain",
   "main": "dist/index.js",
