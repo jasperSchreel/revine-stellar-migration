@@ -11,7 +11,7 @@ export const generateAccount: (pair: Keypair) => Promise<void> = async (pair: Ke
     );
     const responseJSON = await response.json();
 
-    if (responseJSON?.detail.includes('createAccountAlreadyExist')) {
+    if (responseJSON?.detail?.includes('createAccountAlreadyExist')) {
         console.log("Account already generated");
         return;
     }
