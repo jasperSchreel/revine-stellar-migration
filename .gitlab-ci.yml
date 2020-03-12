@@ -12,6 +12,7 @@ Test:
   tags:
     - local
   script:
+    - echo "Hello world"
     - yarn test
 
 Build:
