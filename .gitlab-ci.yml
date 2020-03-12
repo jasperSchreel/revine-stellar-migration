@@ -9,16 +9,12 @@ before_script:
 
 Test:
   stage: test
-  tags:
-    - local
   script:
     - echo "Hello world"
     - yarn test
 
 Build:
   stage: deploy
-  tags:
-    - local
   only:
    - /^(\d+\.)?(\d+\.)?(\*|\d+)$/  
   script:
